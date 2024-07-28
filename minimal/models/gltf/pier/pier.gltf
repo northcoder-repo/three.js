@@ -1,0 +1,305 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.83d4ab85)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3286,
+            "type": "VEC3",
+            "max": [
+                1.2848232984542847,
+                9.479999542236329,
+                14.446830749511719
+            ],
+            "min": [
+                0.3079233467578888,
+                -4.440892098500626e-15,
+                13.472000122070313
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3286,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3286,
+            "type": "VEC2",
+            "max": [
+                1284.8233642578126,
+                1.0
+            ],
+            "min": [
+                307.92333984375,
+                -9479.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 6912,
+            "type": "SCALAR",
+            "max": [
+                3285
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 35659,
+            "type": "VEC3",
+            "max": [
+                0.16243457794189454,
+                0.2310681939125061,
+                -0.0
+            ],
+            "min": [
+                -9.252435684204102,
+                -0.2310681939125061,
+                -6.035332679748535
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 35659,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.9999936819076538,
+                -0.9653796553611755
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 35659,
+            "type": "VEC2",
+            "max": [
+                1027.417236328125,
+                -9481.3603515625
+            ],
+            "min": [
+                565.28076171875,
+                -15516.6923828125
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 43680,
+            "type": "SCALAR",
+            "max": [
+                35658
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1448608,
+            "uri": "pier.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 39432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 39432,
+            "byteLength": 39432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 78864,
+            "byteLength": 26288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 105152,
+            "byteLength": 27648,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 132800,
+            "byteLength": 427908,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 560708,
+            "byteLength": 427908,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 988616,
+            "byteLength": 285272,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1273888,
+            "byteLength": 174720,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "VWDefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ]
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "material",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "material",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5333333611488342,
+                    0.5333333611488342,
+                    0.5333333611488342,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 2,
+                    "indices": 7,
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "SGP_LC_Pier breakdown",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Design Layer-1",
+            "children": [
+                2,
+                3
+            ]
+        },
+        {
+            "name": "node",
+            "mesh": 0
+        },
+        {
+            "name": "node_0",
+            "matrix": [
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.0,
+                0.0,
+                -0.0,
+                -1.0,
+                0.0,
+                -0.0,
+                0.7963489890098572,
+                9.482359886169434,
+                14.284215927124024,
+                1.0
+            ],
+            "mesh": 1
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
